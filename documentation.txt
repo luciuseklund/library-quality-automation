@@ -34,3 +34,13 @@ Total records processed.
 Number of rows dropped during cleaning.
 Data transformation success rate.
 Ensure the dashboard is useful from a data engineering perspective, providing insights into the efficiency and effectiveness of the pipeline.
+
+
+Pipeline tool functions:
+
+Handle empty cells – Identify and either fill missing values appropriately or remove incomplete records.
+Fix incorrect data formats – Ensure consistency in dates, numeric values, and categorical text.
+Correct wrong data – Use validation checks to identify anomalies.
+Remove duplicates – Identify and remove duplicate records.
+Prepare the data for analysis in Power BI – Ensure it is clean and structured.
+

@@ -1,0 +1,9 @@
+﻿<p>Kanban Framework</p>,,,,
+"As a data engineer, I want to handle missing values so that my dataset remains complete and usable.",Identify empty cells and apply appropriate imputation/removal logic.,,To do,Lucius Eklund
+"As a data engineer, I want to standardise data formats so that the dataset remains consistent.",Convert inconsistent date formats into a uniform format.,,To do,
+"As a data engineer, I want to validate and correct wrong data so that it aligns with expected values.",Implement validation rules to detect anomalies.,,To do,
+"As a data engineer, I want to remove duplicate records so that I only retain unique entries.",Identify and remove duplicate rows.,,To do,
+"As a data engineer, I want to transform data so that it is structured for Power BI analysis.",Reformat and export the cleaned dataset into a structured format.,,To do,
+"As a data analyst, I want to visualise the impact of data cleaning so that I can track improvements.",Create visual metrics on the number of missing values handled.,,To do,
+"As a data analyst, I want to see an overview of incorrect data fixed so that I can monitor data integrity.",Build a Power BI visual on incorrect data found and fixed.,,To do,
+"As a data analyst, I want to track the number of duplicates removed so that I can measure data quality improvement.",Create a visual for duplicates detected and eliminated.,,To do,
