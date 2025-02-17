@@ -1,0 +1,1 @@
+print("Library Quality Automation Project - Python Script Initialized!")
