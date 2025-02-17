@@ -1,0 +1,13 @@
+﻿"<p>Kanban Framework</p>"
+"As a Data Analyst, I want to clean the library system data to ensure it is accurate, complete, and ready for reporting.","Load raw customer and book CSV files into Pandas Check for missing values in each column Handle missing values (fill placeholders or drop rows) Identify and remove duplicate records Convert dates into proper datetime format Validate and correct email & phone number formats Detect anomalies or incorrect data Log all data transformation steps into a metadata file Save the cleaned dataset as CSV","","To do","","","","",""
+"As a Data Engineer, I want to automate the data cleaning pipeline so that the process runs efficiently without manual effort","Write a Python script to automate the data cleaning steps Include logging for metadata tracking Save a metadata report for tracking issues and transformations Create a unit test script to verify data transformations Implement error handling & logging","","","","","","",""
+"As a Quality Assurance Engineer, I want to test the pipeline to ensure it works correctly before deployment","Write test cases for:   Checking missing value handling   Duplicate removal   Data type conversions   Anomaly detection Run unit tests to validate correctness Fix any issues or bugs Re-run tests to confirm fixes","","","","","","",""
+"As a Data Analyst, I want to visualize the data cleaning results in Power BI to assess the data quality improvements","Load pipeline_metadata.csv into Power BI Create a table visualization showing row counts, missing values, and duplicates removed Create bar charts comparing before & after cleaning Document the findings in a summary report Share the Power BI dashboard with stakeholders","","To do","","","","",""
+"As a DevOps Engineer, I want to integrate the pipeline with a CI/CD workflow so that data cleaning runs automatically on a schedule","Set up an Azure DevOps or GitHub Actions pipeline Configure automated testing in the pipeline Automate script execution on new data arrivals Deploy cleaned data to Azure SQL or a cloud storage location Schedule Power BI refresh to update reports automatically","","","","","","",""
+
+"Raw Data Source"
+"Python (pandas)"
+"CI/CD Pipeline (Azure DevOps)"
+"Testing (Pytest)"
+"Data Storage (SQL/BLOB)"
+"Visuals (PowerBI)"
