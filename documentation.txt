@@ -1,0 +1,36 @@
+1. GitHub Setup
+Create a new repository to store all project-related code and documentation.
+Set up a branching strategy (e.g., main, dev, feature branches).
+Configure access permissions and ensure version control best practices are followed.
+2. Design Architectural Diagram
+Outline the end-to-end data pipeline architecture.
+Define key components, including:
+Data ingestion sources
+Data cleaning and transformation processes
+Storage solutions (database or data warehouse)
+CI/CD pipeline flow
+Use tools like draw.io or Lucidchart for visualization.
+3. Implement Data Cleaning Application
+Develop a Python application that:
+Ingests raw data.
+Cleans and standardizes the data (handling missing values, duplicates, and formatting issues).
+Outputs the cleaned dataset for further processing.
+4. Testing the Application
+Write unit tests to validate data cleaning logic.
+Conduct sample data tests to ensure expected transformations.
+Log results for debugging and optimization.
+5. Deployment (CI/CD Integration)
+Set up a CI/CD pipeline to automate deployment.
+Implement GitHub Actions, Azure DevOps, or another CI/CD tool.
+Automate testing and deployment to a staging environment.
+6. Testing Deployment & Database Integration
+Trigger the pipeline to ensure data is successfully written to the database.
+Validate data integrity post-ingestion.
+Monitor logs for errors and inconsistencies.
+7. Power BI Dashboard Development
+Create a Power BI dashboard to track pipeline performance.
+Include key metrics such as:
+Total records processed.
+Number of rows dropped during cleaning.
+Data transformation success rate.
+Ensure the dashboard is useful from a data engineering perspective, providing insights into the efficiency and effectiveness of the pipeline.
