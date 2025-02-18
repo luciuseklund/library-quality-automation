@@ -1,0 +1,15 @@
+Data Cleaning Log
+=================
+
+Processing file: 03_Library Systembook.csv
+Original Columns: ['Id', 'Books', 'Book checkout', 'Book Returned', 'Days allowed to borrow', 'Customer ID']
+Duplicates Removed: 0
+Missing Values Filled: 5
+Cleaned file saved: C:\Users\Admin\Documents\library-quality-automation\Test_Data\Cleaned\cleaned_03_Library Systembook.csv
+
+Processing file: 03_Library SystemCustomers.csv
+Original Columns: ['Customer ID', 'Customer Name']
+Duplicates Removed: 0
+Missing Values Filled: 0
+Cleaned file saved: C:\Users\Admin\Documents\library-quality-automation\Test_Data\Cleaned\cleaned_03_Library SystemCustomers.csv
+
